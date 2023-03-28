@@ -32,7 +32,7 @@ async function getCategoryIds() {
  * returns the data for that category
  */
 async function getCategory(catId) {
-    const category = await axios.get(`http://jservice.io/ap` + 
+    const category = await axios.get(`https://jservice.io/ap` + 
     `i/category?id=${catId}`)
     return category.data;
 }
