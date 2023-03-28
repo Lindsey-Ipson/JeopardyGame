@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+h1, button {
+  font-family: Copse, serif;
+  margin: 7px;
+}
+
+button {
+  font-size: 1.3rem;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  display: none;
+  margin: 10px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #4146dc;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+    border: solid 1px white;
+    padding: 1rem;
+}
+
+thead td {
+  background-color: #2d17b8;
+}
+
+td {
+  height: 6rem;
+  width: 6rem;
+  font-family: Copse, serif;
+  display: table-cell;
+  vertical-align: inherit;
+  overflow: hidden;
+  width: 1%;
+}
+
+
